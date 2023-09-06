@@ -1,13 +1,16 @@
-import Header from './Header.jsx'
-import styles from './Header.module.css'
+import Header from "./Header.jsx";
+import styles from "./Header.module.css";
 function App() {
-
-  return ( 
+  return (
     <>
-      
-        
+      <div>
+        <nav>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+        </nav>
+      </div>
     </>
-  )
+  );
 }
-
-export default App
+export default App;
