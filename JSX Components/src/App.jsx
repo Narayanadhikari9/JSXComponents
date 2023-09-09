@@ -1,14 +1,12 @@
-import Header from "./Header.jsx";
-import styles from "./Header.module.css";
+import Header from "./header.jsx";
+import Link from "./link.jsx";
+import "./App.css";
 function App() {
   return (
     <>
       <div>
-        <nav>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Contact Us</li>
-        </nav>
+        <Header />
+        <Link />
       </div>
     </>
   );
