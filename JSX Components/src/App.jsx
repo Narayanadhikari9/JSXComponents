@@ -6,15 +6,13 @@ import Contact from "./components/contact.jsx";
 import "./App.css";
 function App() {
   return (
-    <>
-      <div>
-        <Header />
-        <Navigation />
-        <Home />
-        <About />
-        <Contact />
-      </div>
-    </>
+    <div className="App">
+      <Header />
+      <Navigation />
+      <Home />
+      <Contact />
+      <About />
+    </div>
   );
 }
 export default App;

@@ -12,8 +12,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  gap: 2rem;
-  padding: 0 4rem;
+  gap: 1rem;
+  padding: 0 2rem;
 }
 
 .react-app {
@@ -33,8 +33,46 @@ body {
 .nav a {
   color: inherit;
   text-decoration: none;
-  height: 100;
+  height: 60px;
   display: flex;
   align-items: center;
   padding: 1rem;
+  background-color: aqua;
+  color: black;
+}
+
+.home {
+  background-color: blue;
+  color: #000;
+}
+
+.about {
+  background-color: red;
+  color: skyblue;
+}
+
+.ontact {
+  background-color: greenyellow;
+  color: orangered;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+h3 {
+  background-color: blueviolet;
+  color: black;
+  text-align: center;
+}
+h4 {
+  background-color: red;
+  color: blue;
+  text-align: center;
+}
+
+p {
+  background-color: aliceblue;
+  text-align: center;
 }
